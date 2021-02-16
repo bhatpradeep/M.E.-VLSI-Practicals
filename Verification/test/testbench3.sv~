@@ -1,0 +1,11 @@
+module tb_top;
+	
+	initial begin
+                
+		myPacket p1 = new (3'h2, 2'h3);
+		p1.display ();
+
+		myPacket p2 = new ();
+		p2.display ();
+	end
+endmodule
