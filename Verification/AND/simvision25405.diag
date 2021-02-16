@@ -1,0 +1,96 @@
+*** Message Type: info ***
+When: Fri Nov 27 01:58:20 PM IST 2020
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s069
+User: root
+Host: vlsi-38
+Platform: Linux/x86_64/2.6.32-696.20.1.el6.x86_64
+Started: Fri Nov 27 01:58:20 PM IST 2020
+Command: /cad/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:vlsi-38:55822 -64BIT -nocopyright
+Work Directory: /root/Desktop/201038025/Verification
+ 
+*** Message Type: info ***
+When: Fri Nov 27 01:58:21 PM IST 2020
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Nov 27 01:58:21 PM IST 2020
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Fri Nov 27 01:58:22 PM IST 2020
+Connect to Simulator
+      Design: worklib.andg_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL: ncsim(64)       15.20-s069
+        User: root
+        Host: vlsi-38
+Time Started: Fri Nov 27 01:58:18 PM IST 2020
+  Process ID: 25312
+   Directory: /root/Desktop/201038025/Verification
+     Command: irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui
+
+ 
+*** Message Type: info ***
+When: Fri Nov 27 01:58:23 PM IST 2020
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Fri Nov 27 02:03:57 PM IST 2020
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Fri Nov 27 02:04:33 PM IST 2020
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Fri Nov 27 02:04:39 PM IST 2020
+Create waveform window: "Waveform 2"
+ 
+*** Message Type: info ***
+When: Fri Nov 27 02:07:24 PM IST 2020
+Exit NC-Sim: user
+      Design: worklib.andg_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL: ncsim(64)       15.20-s069
+        User: root
+        Host: vlsi-38
+Time Started: Fri Nov 27 01:58:18 PM IST 2020
+  Process ID: 25312
+   Directory: /root/Desktop/201038025/Verification
+     Command: irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui
+
+ 
+*** Message Type: error ***
+When: Fri Nov 27 02:07:24 PM IST 2020
+NC-Sim Crashed:
+      Design: worklib.andg_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL: ncsim(64)       15.20-s069
+        User: root
+        Host: vlsi-38
+Time Started: Fri Nov 27 01:58:18 PM IST 2020
+  Process ID: 25312
+   Directory: /root/Desktop/201038025/Verification
+     Command: irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui
+      Design: worklib.andg_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL: ncsim(64)       15.20-s069
+        User: root
+        Host: vlsi-38
+Time Started: Fri Nov 27 01:58:18 PM IST 2020
+  Process ID: 25312
+   Directory: /root/Desktop/201038025/Verification
+     Command: irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Fri Nov 27 02:07:30 PM IST 2020
+SimVision Exit.
+ 

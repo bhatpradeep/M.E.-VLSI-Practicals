@@ -1,0 +1,53 @@
+irun(64): 15.20-s069: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s069: Started on Jan 08, 2021 at 17:10:35 IST
+irun
+	-sv
+	andgsv.sv
+	andg_tb_sv.sv
+	-access rw
+	-gui
+file: andg_tb_sv.sv
+	module worklib.andg_tb:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		$unit_0x359fdf4a
+		andg_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.\$unit_0x359fdf4a :compilation_unit <0x11254192>
+			streams:   8, words:  3370
+		worklib.\$unit_0x359fdf4a :compilation_unit <0x2e8504bb>
+			streams:   0, words:     0
+		worklib.andg_tb:sv <0x361d59ed>
+			streams:   1, words:  2799
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                   1       1
+		Registers:                 9      11
+		Initial blocks:            1       1
+		Compilation units:         1       1
+		SV Class declarations:     1       1
+		SV Class specializations:  1       1
+	Writing initial simulation snapshot: worklib.andg_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /cad/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm andg_tb.ag andg_tb.c -depth 2 -all
+Created probe 1
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s069: Exiting on Jan 08, 2021 at 17:11:09 IST  (total: 00:00:34)

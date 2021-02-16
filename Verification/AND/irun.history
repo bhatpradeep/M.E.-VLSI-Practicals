@@ -1,0 +1,9 @@
+s1(27Nov2020:13:56:58):  irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui 
+s2(27Nov2020:13:58:16):  irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui 
+s3(27Nov2020:14:07:47):  irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui 
+s4(27Nov2020:14:50:37):  irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui 
+s5(27Nov2020:14:53:59):  irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui -s  
+s6(08Jan2021:17:08:59):  irun -sv and_tb_sv.sv andgsv.sv -access rw 
+s7(08Jan2021:17:09:18):  irun -sv and_tb_sv.sv andgsv.sv -access rw -gui 
+s8(08Jan2021:17:09:45):  irun -sv andg_tb_sv.sv andgsv.sv -access rw -gui 
+s9(08Jan2021:17:10:35):  irun -sv andgsv.sv andg_tb_sv.sv -access rw -gui 
